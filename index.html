@@ -1,28 +1,29 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Cartola</title>
     <link rel="stylesheet" href="style/style.css">
-<script src="script/script.js"></script>
+    <script src="script/chat.js"></script>
+</head>
+
 <body>
-    </head>
+    <header>
+        <div>
+            <img id="cartola" src="style/assets/Logo_cartola.png" alt="Cartola Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Dashboard</a></li>
+                <li><a href="#">Escalação</a></li>
+                <li><a href="#">Competições</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <body>
-        <header>
-            <div>
-                <img id=cartola src="style/assets/Logo_cartola.png" alt="Cartola Logo">
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="#">Dashboard</a></li>
-                    <li><a href="#">Escalação</a></li>
-                    <li><a href="#">Competições</a></li>
-                </ul>
-            </nav>
-        </header>
-
+    <div class="container">
         <div class="perfil">
             <div class="user">
                 <img src="style/assets/Logo.perfil.png" alt="User Avatar">
@@ -31,38 +32,44 @@
                     <p>lucas dalcanale</p>
                 </div>
             </div>
+        </div>
+        <div class="cartoleta">
+            <div class="cartoletas">
+                <h3><strong>PATRIMÔNIO</strong></h3>
+                <p><strong>C$ 125.08</strong></p>
+            </div>
+            <div class="cartoletas">
+                <h3><strong> ÚLT. PONTUAÇÃO</strong></h3>
+                <p><strong>80.51</strong></p>
+            </div>
+            <div class="cartoletas">
+                <h3><strong>TOTAL</strong></h3>
+                <p><strong>387.42</strong></p>
+            </div>
+        </div>
+    </div>
 
-            <div class="categorias">
-                <div class="categoria">
-                    <h3>LIGA DE PONTOS CORRIDOS</h3>
-                    <p>Encare confrontos contra todos para ser o primeiro colocado na tabela.</p>
-                    <img id="pessoas" src="style/assets/Liga_pontos_corridos.png" alt="">
-                    <button>CRIAR LIGA</button>
-                </div>
-                <div class="categoria">
-                    <h3>LIGA CLÁSSICA</h3>
-                    <p>Dispute o primeiro lugar do ranking de pontos corridos com seus amigos!</p>
-                    <img id="pessoas" src="style/assets/Liga_classica.png" alt="">
-                    <button>CRIAR LIGA</button>
-                </div>
-                <div class="categoria">
-                    <h3>LIGA MATA-MATA</h3>
-                    <p>Disputas rápidas de até 5 rodadas com confrontos eliminatórias!</p>
-                    <img id="pessoas" src="style/assets/Liga_Mata_Mata.png" alt="">
-                    <button>CRIAR LIGA</button>
-                </div>
-            </div>
+    <div class="categorias">
+        <div class="categoria">
+            <h3>LIGA DE PONTOS CORRIDOS</h3>
+            <p>Encare confrontos contra todos para ser o primeiro colocado na tabela.</p>
+            <img id="pessoas" src="style/assets/Liga_pontos_corridos.png" alt="">
+            <button>CRIAR LIGA</button>
         </div>
-        <button id="chatButton">Abrir Chat</button>
-        <div id="chatSidebar" class="sidebar">
-            <div class="chat-header">
-                <h2>Chat Online</h2>
-                <button id="closeChat">Fechar</button>
-            </div>
-            <div class="chat-body">
-                <p>Bem-vindo ao nosso chat!</p>
-            </div>
+        <div class="categoria">
+            <h3>LIGA CLÁSSICA</h3>
+            <p>Dispute o primeiro lugar do ranking de pontos corridos com seus amigos!</p>
+            <img id="pessoas" src="style/assets/Liga_classica.png" alt="">
+            <button>CRIAR LIGA</button>
         </div>
-    </body>
+        <div class="categoria">
+            <h3>LIGA MATA-MATA</h3>
+            <p>Disputas rápidas de até 5 rodadas com confrontos eliminatórias!</p>
+            <img id="pessoas" src="style/assets/Liga_Mata_Mata.png" alt="">
+            <button>CRIAR LIGA</button>
+        </div>
+    </div>
+    </div>
+</body>
 
 </html>

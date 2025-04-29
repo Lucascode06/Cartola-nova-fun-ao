@@ -88,39 +88,31 @@ nav a {
     margin-bottom: 50px;
 }
 
-.chat {
-    flex: 1;
-    background-color: #F2F2F2;
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
     padding: 20px;
+}
+
+.cartoleta {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    margin-top: 20px;
+}
+
+.cartoletas {
+    background-color: #f2f2f2;
+    padding: 10px;
     border-radius: 5px;
 }
 
-.chat h2 {
+.cartoletas h3 {
     margin-top: 0;
 }
 
-.chat-messages {
-    height: 300px;
-    overflow-y: scroll;
-    margin-bottom: 10px;
-}
+.cartoletas p {
+    margin: 0;
+    font-size: 24px;
 
-.chat-input {
-    display: flex;
-}
-
-.chat-input input {
-    flex: 1;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px 0 0 5px;
-}
-
-.chat-input button {
-    background-color: #FF6B00;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 0 5px 5px 0;
-    cursor: pointer;
 }
