@@ -1,77 +1,126 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-  }
-  header {
+}
+
+header {
     background-color: #FF6B00;
     color: white;
     padding: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
-  nav ul {
+}
+
+nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     display: flex;
-  }
-  nav li {
+}
+
+nav li {
     margin-right: 20px;
-  }
-  nav a {
+}
+
+nav a {
     color: white;
     text-decoration: none;
-  }
-  .perfil {
+}
+
+.perfil {
     padding: 20px;
-  }
-  .categorias {
+}
+
+.categorias {
     display: flex;
     justify-content: space-between;
-  }
-  .categoria {
+}
+
+.categoria {
     background-color: #F2F2F2;
     padding: 20px;
     text-align: center;
-    flex: 1;
     margin: 10px;
-  }
-  .categoria h3 {
+}
+
+.categoria h3 {
     margin-top: 0;
-  }
-  .categoria button {
+}
+
+.categoria button {
     background-color: #FF6B00;
     color: white;
     border: none;
-    padding: 10px 20px;
+    padding: 20px;
     cursor: pointer;
-  }
-  .user {
+}
+
+.user {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
     max-width: 1000px;
-  }
-  .user img {
+}
+
+.user img {
     max-width: 1000px;
     border-radius: 50%;
     margin-right: 20px;
-  }
-  .user h2 {
-    margin: 0;
-  }
-  .user p {
-    margin: 5px 0 0 0;
-  }
-  
-  #cartola{
-    max-width: 100px;
-  }
+}
 
-  #pessoas{
-        max-width: 100%;
-        height: 450px;
-        margin-bottom: 50px;
-  }
+.user h2 {
+    margin: 0;
+}
+
+.user p {
+    margin: 5px 0 0 0;
+}
+
+#cartola {
+    max-width: 100px;
+}
+
+#pessoas {
+    max-width: 100%;
+    height: 450px;
+    margin-bottom: 50px;
+}
+
+.chat {
+    flex: 1;
+    background-color: #F2F2F2;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.chat h2 {
+    margin-top: 0;
+}
+
+.chat-messages {
+    height: 300px;
+    overflow-y: scroll;
+    margin-bottom: 10px;
+}
+
+.chat-input {
+    display: flex;
+}
+
+.chat-input input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+}
+
+.chat-input button {
+    background-color: #FF6B00;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
