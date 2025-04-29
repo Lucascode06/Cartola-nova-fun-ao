@@ -1,7 +1,12 @@
-document.getElementById('chatButton').addEventListener('click', function() {
-    document.getElementById('chatSidebar').classList.toggle('open');
-});
+document.addEventListener("DOMContentLoaded", () => {
+    const chatToggleImage = document.querySelector('.chat-img');
+    const chatContainer = document.querySelector('.chat-container');
+    const chatToggle = document.getElementById('chat-toggle');
 
-document.getElementById('closeChat').addEventListener('click', function() {
-    document.getElementById('chatSidebar').classList.remove('open');
+    chatToggleImage.addEventListener('click', () => {
+        chatContainer.classList.toggle('hidden');
+    });
+    chatToggle.addEventListener('click', () => {
+        chatContainer.classList.toggle('hidden');
+    });
 });

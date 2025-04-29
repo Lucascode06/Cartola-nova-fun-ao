@@ -116,3 +116,52 @@ nav a {
     font-size: 24px;
 
 }
+.chat-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 350px;
+    height: 500px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    z-index: 999;
+  }
+  
+  .chat-container.hidden {
+    transform: translateY(100%);
+  }
+  
+  .chat-header {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .chat-header button {
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .chat-img {
+    position: fixed;
+    bottom: 100px;
+    right: 20px;
+    width: 100px;
+    height: 100px;
+    background-image: url('../style/assets/chat.png'); 
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    z-index: 998;
+}
+
+  

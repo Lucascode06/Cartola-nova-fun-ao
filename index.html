@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cartola</title>
     <link rel="stylesheet" href="style/style.css">
-    <script src="script/chat.js"></script>
 </head>
+<script src="script/chat.js"></script>
 
 <body>
     <header>
@@ -69,7 +69,20 @@
             <button>CRIAR LIGA</button>
         </div>
     </div>
+    <div class="chat-img"></div> 
+
+    <div class="chat-container hidden">
+        <div class="chat-header">
+            <span>Chat</span>
+            <button id="chat-toggle">&#9650;</button>
+        </div>
+        <div class="chat-messages"></div>
+        <div class="chat-input">
+            <input type="text" placeholder="Digite sua mensagem">
+            <button>Enviar</button>
+        </div>
     </div>
+
 </body>
 
 </html>
